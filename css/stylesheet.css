@@ -1,0 +1,64 @@
+body {
+    background-color: grey;
+}
+
+#textbereich{
+    background-color: white;
+    opacity: 0.2;
+    height: 500px;
+    width: 1500px;
+
+}
+
+#footer{
+    background-color: green;
+    height: 50px;
+     width: 1500px;
+}
+
+#navibereich{
+    width: 1500px;
+}
+
+#header{
+    width: 1500px;
+}
+
+.startDiv{
+     margin-left: auto;
+     margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+   
